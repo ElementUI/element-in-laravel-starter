@@ -1,9 +1,9 @@
 # Element In Laravel
 
-Laravel Project with Vue2 and [ElementUI](https://github.com/ElemeFE/element)
+Laravel Project with Vue2 and [Element](https://github.com/ElemeFE/element)
 
 ## Usage
-First, run the server.
+First, run the server.(Make sure Laravel & node-modules have installed and in right configure.)
 
 ```
 php artisan server
