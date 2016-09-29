@@ -6,7 +6,7 @@ Laravel Project with Vue2 and [Element](https://github.com/ElemeFE/element)
 First, run the server.(Make sure Laravel & node-modules have installed and in right configure.)
 
 ```
-php artisan server
+php artisan serve
 ```
 
 Then, run the `gulp` to compile the front-end.
