@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <example></example>
-    <el-button>Hello Element</el-button>
+    <el-button icon="edit">Hello Element</el-button>
   </div>
 </template>
 <script>
