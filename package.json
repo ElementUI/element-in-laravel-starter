@@ -14,7 +14,7 @@
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-9",
     "laravel-elixir-vue-2": "^0.2.0",
-    "laravel-elixir-webpack-official": "^1.0.9",
+    "laravel-elixir-webpack-official": "https://github.com/SebastianS90/laravel-elixir-webpack-official/tarball/22a3805996dfb7ca3e4137e9bdcb29232ba9f519",
     "lodash": "^4.16.2",
     "style-loader": "^0.13.1",
     "vue": "^2.0.1",
