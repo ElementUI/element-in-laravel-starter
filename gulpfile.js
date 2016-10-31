@@ -2,7 +2,6 @@ const elixir = require('laravel-elixir');
 const path = require('path');
 
 require('laravel-elixir-vue-2');
-require('laravel-elixir-webpack-official');
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -14,28 +13,23 @@ require('laravel-elixir-webpack-official');
  |
  */
 
-Elixir.webpack.config.module.loaders = [];
-
-Elixir.webpack.mergeConfig({
-    resolveLoader: {
-        root: path.join(__dirname, 'node_modules'),
-    },
-    module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                loader: 'babel',
-                exclude: /node_modules/
-            },
-            {
-                test: /\.css$/,
-                loader: 'style!css'
-            }
-        ]
-    }
-});
-
 elixir(mix => {
+    // Elixir.webpack.config.module.loaders = [];
+
+    Elixir.webpack.mergeConfig({
+        resolveLoader: {
+            root: path.join(__dirname, 'node_modules'),
+        },
+        module: {
+            loaders: [
+                {
+                    test: /\.css$/,
+                    loader: 'style!css'
+                }
+            ]
+        }
+    });
+
     mix.sass('app.scss')
        .webpack('app.js');
 });
