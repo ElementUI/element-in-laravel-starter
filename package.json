@@ -20,9 +20,5 @@
     "vue": "^2.0.5",
     "vue-loader": "^9.8.0",
     "vue-resource": "^1.0.3"
-  },
-  "dependencies": {
-    "element-ui": "next",
-    "vue": "^2.0.3"
   }
 }
