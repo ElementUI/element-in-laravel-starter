@@ -12,7 +12,7 @@ php artisan serve
 Then, run the `gulp` to compile the front-end.
 
 ```
-gulp watch
+npm run watch
 ```
 
 Visit `http://localhost:8000`, It works!
