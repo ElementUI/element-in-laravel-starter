@@ -20,7 +20,7 @@
     "element-ui": "^2.0.0",
     "jquery": "^3.1.0",
     "laravel-mix": "0.*",
-    "lodash": "^4.16.4",
+    "lodash": "^4.17.21",
     "style-loader": "^0.13.1",
     "vue": "^2.5.2",
     "vue-loader": "^13.3.0"
